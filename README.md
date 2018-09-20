@@ -23,7 +23,7 @@ Some histogram equalization methods to enhance image contrast, including AHE and
   * 代码实现了五种直方图均衡化的方法，分别是：1.利用PIL.ImageOps实现的直方图均衡化；2.自己实现的直方图均衡化HE；3.自适应直方图均衡化AHE；4.限制对比度自适应直方图均衡化CLAHE;5.自适应局部区域伸展直方图均衡化Local Region Stretch HE。其原理详细介绍见知乎链接。
 
 ## 结果展示
-  下面给出一些结果图片：
+  下面给出一些结果图片,每组有六张图片，分别是原图、ImageOps HE、HE、AHE、CLAHE、Local Region Stretch HE的结果对比：
   <div> 
     <table>
      <tr>
@@ -45,6 +45,16 @@ Some histogram equalization methods to enhance image contrast, including AHE and
       <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ahe_cap.png"></td>
       <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/clahe_cap.png"></td>
       <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/lrs_cap.png"></td>
+     </tr>
+     <tr>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/night.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ops_night.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/he_night.png"></td>
+     </tr>
+     <tr>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ahe_night.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/clahe_night.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/lrs_night.png"></td>
      </tr>
     </table>
   </div>
