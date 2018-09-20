@@ -26,6 +26,25 @@ Some histogram equalization methods to enhance image contrast, including AHE and
   下面给出一些结果图片：
   <div> 
     <table>
-     <tr><td><img src = ""></td></tr>
+     <tr>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/car.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ops_car.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/he_car.jpg"></td>
+     </tr>
+     <tr>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ahe_car.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/clahe_car.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/lrs_car.jpg"></td>
+     </tr>
+     <tr>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/cap.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ops_cap.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/he_cap.png"></td>
+     </tr>
+     <tr>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/ahe_cap.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/clahe_cap.png"></td>
+      <td><img src = "https://github.com/lxcnju/histogram_equalization/blob/master/pics/lrs_cap.png"></td>
+     </tr>
     </table>
   </div>
