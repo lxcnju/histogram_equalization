@@ -25,4 +25,7 @@ Some histogram equalization methods to enhance image contrast, including AHE and
 ## 结果展示
   下面给出一些结果图片：
   <div> 
+    <table>
+     <tr><td><img src = ""></td></tr>
+    </table>
   </div>
