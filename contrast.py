@@ -1,5 +1,6 @@
 #-*- coding:utf-8 -*-
 
+import math
 from PIL import Image, ImageOps
 import numpy as np
 from matplotlib import pyplot as plt
@@ -160,8 +161,8 @@ class ImageContraster():
         arr = img_arr.copy()
         for i in range(m):
             for j in range(n):
-                r = int((i - block_m / 2) / block_m)      # the row index of the left-up mapping function
-                c = int((j - block_n / 2) / block_n)      # the col index of the left-up mapping function
+                r = int(math.floor((i - block_m / 2) / block_m))      # the row index of the left-up mapping function
+                c = int(math.floor((j - block_n / 2) / block_n))      # the col index of the left-up mapping function
                 
                 x1 = (i - (r + 0.5) * block_m) / block_m  # the x-axis distance to the left-up mapping center
                 y1 = (j - (c + 0.5) * block_n) / block_n  # the y-axis distance to the left-up mapping center
